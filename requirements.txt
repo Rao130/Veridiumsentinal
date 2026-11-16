@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+pydantic-settings
+pydantic[email]
+pytest
+httpx==0.28.1
+httpcore==1.0.9
+cryptography>=42,<51
+pytest-asyncio
+sqlalchemy
+alembic
+pwdlib[argon2]
+pyjwt
+python-dotenv
+psycopg[binary]
